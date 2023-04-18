@@ -1,0 +1,32 @@
+.form-control{
+    width: 20rem;
+    height: 2rem;
+    padding: .6rem;
+}
+
+.btn{
+    height: 2.1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.drop-down{
+    display: flex;
+    flex-direction: column;
+    border: blue 1px;
+}
+
+.drop-down a:last-child{
+    border-bottom:1px solid  rgb(18, 185, 246);
+    border-radius: 0 0 5px 5px;
+}
+
+button{
+    background-color: rgb(18, 185, 246);
+    color: #fff ;
+    border-radius:  0  8px 8px 0 ;
+}
+
+input{
+    border-radius:  rgb(18, 185, 246) 8px  0   0  8px;
+}

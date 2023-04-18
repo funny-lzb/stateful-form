@@ -1,0 +1,57 @@
+@import './searchboard.css';
+@import './baidu.css';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 18px;
+  }
+  
+  body {
+    height: 100vh;
+    padding: 0;
+    margin: 0; 
+}
+
+ul{
+  padding-left: 0 !important; 
+}
+
+li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a{
+  width:20rem;
+  text-decoration: none ;
+  color: blueviolet;
+  border: 1px solid  rgb(18, 185, 246);
+  border-top: none;
+  border-bottom: none;
+}
+
+
+h2{
+  font-size: 2em;
+  font-weight: 700 !important;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #0d9dfd !important;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+p{
+  margin-bottom: 0.8em;
+  line-height: 1.6em;
+}
+
+
+.dark{
+  background-color: #ccc;
+}
